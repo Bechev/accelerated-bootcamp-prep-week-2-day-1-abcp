@@ -1,5 +1,4 @@
-childrenArray = document.tagName() ;
-console.log(childrenArray);
+
 var document = [
   {
     tagName: "div",
@@ -43,3 +42,7 @@ var document = [
     ]
   }
 ]
+
+
+childrenArray = document.tagName() ;
+console.log(childrenArray);
