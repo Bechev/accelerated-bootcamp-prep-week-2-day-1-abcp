@@ -1,4 +1,4 @@
-childrenArray = document.tagName ;
+childrenArray = document.tagName() ;
 console.log(childrenArray);
 var document = [
   {
