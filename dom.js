@@ -43,7 +43,7 @@ var document = [
   }
 ]
 
-var childrenArray;
+var childrenArray =[];
 document.forEach(function getChildren(element, index){
   childrenArray[index] = document.children ;
 })
