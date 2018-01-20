@@ -1,5 +1,5 @@
 childrenArray = document.tagName ;
-console.log(childrenArray;)
+console.log(childrenArray);
 var document = [
   {
     tagName: "div",
