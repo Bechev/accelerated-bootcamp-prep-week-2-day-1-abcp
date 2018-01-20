@@ -49,8 +49,6 @@ document.forEach(function getChildren(element, index){
 })*/
 
 var childrenArray =[];
-document["children"].forEach(function getChildren(element, index){
-  childrenArray.push(element);
-})
+childrenArray = document[0].children;
 
 console.log(childrenArray);
