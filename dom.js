@@ -44,5 +44,8 @@ var document = [
 ]
 
 
-childrenArray = document.tagName[] ;
+document.forEach(function getChildren(element, index){
+  childrenArray[index] = document.children ;
+})
+
 console.log(childrenArray);
